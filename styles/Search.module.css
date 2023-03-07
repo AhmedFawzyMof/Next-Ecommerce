@@ -1,0 +1,142 @@
+.Search {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Product {
+  margin: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.ProductFilter {
+  position: absolute;
+  top: 65px;
+  width: 300px;
+  right: 50px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.ProductFilter select {
+  width: 80%;
+  height: 30px;
+  border-radius: 30px;
+  background: #333333b6;
+  color: #fff;
+}
+
+.ProductFilters {
+  width: 300px;
+  position: absolute;
+  padding: 10px;
+  top: 50%;
+  transform: translateY(-50%) translateX(-100%);
+  left: 10px;
+  background: #eee;
+  z-index: 99;
+  border-radius: 15px;
+  box-shadow: 0 0 2px 2px #3333336a;
+  transition: 0.5s;
+}
+
+.ProductFilters select {
+  width: 85%;
+  height: 30px;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.ProductFilterAct {
+  width: 300px;
+  position: absolute;
+  padding: 10px;
+  top: 50%;
+  transform: translateY(-50%) translateX(0%);
+  left: 10px;
+  background: #eee;
+  z-index: 99;
+  border-radius: 15px;
+  box-shadow: 0 0 2px 2px #3333336a;
+  transition: 0.5s;
+}
+
+.ProductFilterAct select {
+  width: 85%;
+  height: 30px;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.Pages {
+  bottom: 5px;
+  position: initial;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.Pages button {
+  width: 35px;
+  height: 35px;
+  border-radius: 7px;
+  border: 2px solid #3333336a;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.Pages button:hover {
+  background: #3251ff;
+  border: 2px solid #eee;
+  color: #fff;
+}
+
+.Refresh {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  cursor: pointer;
+  border: none;
+  font-size: 30px;
+}
+
+.Act {
+  width: 35px;
+  height: 35px;
+  color: #fff;
+  border-radius: 50px;
+  background: #3251ff;
+  border: none;
+  display: grid;
+  place-items: center;
+  font-size: 25px;
+  position: absolute;
+  top: 175px;
+  left: 5px;
+  cursor: pointer;
+}
+
+.pp {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+@media (max-width: 550px) {
+  .ProductFilter {
+    right: 5px;
+  }
+}

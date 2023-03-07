@@ -1,0 +1,145 @@
+.Screen {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.BackBtn {
+  width: 35px;
+  height: 35px;
+  margin: 15px;
+  font-size: 25px;
+  background: #333;
+  color: #fff;
+  position: relative;
+  border-radius: 50px;
+  box-shadow: 0 0 2px 2px #33333345;
+  transition: 0.5s;
+}
+
+.BackBtn svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.BackBtn:hover {
+  width: 40px;
+  height: 40px;
+  color: #333;
+  background: #eee;
+  box-shadow: 0 0 4px 4px #33333345;
+}
+
+.Main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10%;
+}
+
+.Main img {
+  width: 500px;
+  height: 500px;
+  border-radius: 15px;
+  box-shadow: 0 0 1px 2px #33333345;
+}
+
+.Image {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Info {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Info .ul {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  list-style: none;
+  align-items: flex-start;
+}
+
+.Info button {
+  width: 300px;
+  background: #3e44ff;
+  border: none;
+  height: 40px;
+  border-radius: 10px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.Info button svg {
+  width: 30px;
+  height: 30px;
+  fill: #fff;
+}
+
+.Info button:hover {
+  box-shadow: inset 300px 0 0 #333;
+}
+
+@media (max-width: 920px) {
+  .Main {
+    flex-direction: column;
+  }
+  .Main img {
+    width: 550px;
+    height: 550px;
+  }
+}
+
+@media (max-width: 820px) {
+  .Main {
+    flex-direction: column;
+  }
+  .Main img {
+    width: 475px;
+    height: 475px;
+  }
+}
+
+@media (max-width: 750px) {
+  .Main {
+    flex-direction: column;
+  }
+  .Main img {
+    width: 450px;
+    height: 450px;
+  }
+}
+@media (max-width: 450px) {
+  .Main {
+    flex-direction: column;
+  }
+  .Main img {
+    width: 350px;
+    height: 350px;
+  }
+
+  .Info .ul {
+    gap: 20px;
+  }
+  .Info {
+    margin-bottom: 15px;
+  }
+}

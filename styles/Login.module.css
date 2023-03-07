@@ -1,0 +1,93 @@
+.Main {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.errors {
+  color: red;
+}
+
+.Form {
+  width: 400px;
+  height: 450px;
+  background: #fff;
+  position: absolute;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 1px 1px 3px #333;
+}
+.Form img {
+  width: 50px;
+  height: 50px;
+}
+.Form input {
+  height: 40px;
+  padding-left: 5px;
+  border-radius: 10px;
+  border: 3px solid #333;
+}
+
+.input {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Form a {
+  color: #273dff;
+  text-decoration: underline;
+}
+
+.Form button {
+  width: 95%;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background: #273dff;
+  color: #fff;
+  font-size: large;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.Form button:hover {
+  background: #333;
+}
+
+@media (max-width: 550px) {
+  .Form {
+    width: 350px;
+    height: 400px;
+    background: #fff;
+    position: absolute;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 1px 1px 3px #333;
+  }
+}
+
+@media (max-width: 350px) {
+  .Form {
+    width: 300px;
+    height: 350px;
+    background: #fff;
+    position: absolute;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 1px 1px 3px #333;
+  }
+}

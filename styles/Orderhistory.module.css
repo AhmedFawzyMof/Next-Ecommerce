@@ -1,0 +1,49 @@
+.Main {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Table {
+  width: 80%;
+  display: grid;
+  place-items: center;
+}
+
+.TH {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  border-bottom: 2px solid;
+  place-items: center;
+  text-transform: capitalize;
+}
+
+.TB {
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.TT {
+  margin-top: 10px;
+  width: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  place-items: center;
+  background: #eee;
+  border-radius: 5px;
+}
+
+.Main a {
+  color: #3488ff;
+}
+
+@media (max-width: 550px) {
+  .Table {
+    width: 95%;
+  }
+}

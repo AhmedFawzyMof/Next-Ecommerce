@@ -1,0 +1,119 @@
+.Navbar {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  box-shadow: 0 0 1px 1px #3333335a;
+}
+.Logo {
+  font-size: 24px;
+}
+.Right {
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  gap: 15px;
+}
+
+.Cart {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+}
+.Cart svg {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Count {
+  top: 0;
+  right: -6px;
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13.5px;
+  border-radius: 5px;
+  background: red;
+  box-shadow: 0px 0px 0.8px 0.8px #3333335a;
+}
+
+.Login {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.drowpdown {
+  width: 250px;
+  background: #fff;
+  position: absolute;
+  z-index: 1;
+  right: 5px;
+  list-style: none;
+  border-radius: 10px;
+  transition: 0.5s;
+  display: grid;
+  transform: translateY(-170%);
+  gap: 15px;
+  box-shadow: -2px 2px 3px 2px #3333335a;
+}
+.activedrowpdown {
+  width: 250px;
+  background: #fff;
+  position: absolute;
+  z-index: 1;
+  right: 5px;
+  list-style: none;
+  border-radius: 10px;
+  transition: 0.5s;
+  display: grid;
+  transform: translateY(0%);
+  gap: 15px;
+  box-shadow: -2px 2px 3px 2px #3333335a;
+}
+
+.NameACart {
+  height: 40px;
+}
+.Name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  background: #333;
+  border-radius: 10px;
+  color: #fff;
+  text-transform: capitalize;
+  box-shadow: 0 0 1px 1px #3333335a;
+}
+.activeName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  background: #3048ff;
+  border-radius: 10px;
+  color: #fff;
+  text-transform: capitalize;
+  box-shadow: 0 0 1px 1px #3333335a;
+}

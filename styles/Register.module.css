@@ -1,0 +1,77 @@
+.Form {
+  margin-top: 50px;
+  width: 500px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 20px;
+  box-shadow: 1px 1px 3px;
+  border-radius: 25px;
+}
+
+.Input {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.Input input {
+  width: 100%;
+  height: 35px;
+  padding: 0 2px;
+  border-radius: 7px;
+  border: 2px solid #1861fe;
+}
+
+.Input button {
+  width: 100%;
+  height: 35px;
+  border-radius: 8px;
+  background: #1861fe;
+  border: none;
+  color: #fff;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.Input button:hover {
+  background: #333;
+}
+
+.Link a {
+  color: #1861fe;
+}
+
+.Error {
+  color: red;
+}
+
+.PForm {
+  margin: 50px 0;
+  width: 500px;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 10px;
+  box-shadow: 1px 1px 3px;
+  border-radius: 25px;
+}
+
+@media (max-width: 550px) {
+  .Form {
+    width: 400px;
+    height: 600px;
+  }
+}
+
+@media (max-width: 450px) {
+  .Form {
+    width: 380px;
+    height: 600px;
+  }
+}

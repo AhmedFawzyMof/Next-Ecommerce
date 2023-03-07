@@ -1,0 +1,49 @@
+.Card {
+  height: 325px;
+  width: 275px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: -1px 1px 3px #33333381;
+}
+
+.imgcont {
+  height: 275px;
+  width: 100%;
+}
+
+.imgcont img {
+  border-radius: 10px 10px 0 0px;
+  box-shadow: 0 0 2px 1px #33333381;
+  width: 100%;
+  height: 100%;
+}
+
+.Slug {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5px;
+}
+
+.Price {
+  position: absolute;
+  top: 0;
+  background: #fff;
+  left: 0;
+  padding: 0 8px;
+  border-radius: 0 10px 10px 0;
+  box-shadow: 0 0 2px 2px #33333381;
+}
+
+.AddToCart {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.AddToCart svg {
+  font-size: 25px;
+}

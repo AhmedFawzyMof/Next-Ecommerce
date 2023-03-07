@@ -1,0 +1,164 @@
+.Main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.title {
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+.Info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  gap: 20px;
+}
+
+.ShippingCard {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 0px 0px 3px 2px #33333342 !important;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.SummaryCard {
+  width: 300px;
+  box-shadow: 0px 0px 3px 2px #33333342;
+  padding: 10px;
+  border-radius: 15px;
+  display: grid;
+  gap: 20px;
+}
+.Alert_Erorr {
+  width: 100%;
+  height: 20px;
+  background: #f90a0a7b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.Alert_Success {
+  width: 100%;
+  height: 20px;
+  background: #0af9227b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.Table {
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+.THead {
+  width: 90%;
+  display: grid;
+  place-items: center;
+  grid-template-columns: 33% repeat(3, 22.3%);
+}
+
+.THead p {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.TBody {
+  width: 90%;
+  display: grid;
+  gap: 10px;
+}
+
+.TT {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  grid-template-columns: 33% repeat(3, 22.3%);
+  background: #eee;
+  padding-left: 15px;
+  border-radius: 10px;
+}
+
+.TT p {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.P1 a {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.P1 a img {
+  border-radius: 5px;
+  box-shadow: 0 0 1px 1px #33333342;
+}
+
+.OP {
+  width: 100%;
+  height: 45px;
+  display: grid;
+  place-items: center;
+}
+
+.OP button {
+  width: 100%;
+  height: 90%;
+  border-radius: 10px;
+  border: none;
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.OP button:hover {
+  box-shadow: inset 250px 0 0 #143fff;
+}
+
+@media (max-width: 750px) {
+  .ShippingCard {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 1px 1px 3px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  .TT {
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 550px) {
+  .TT {
+    padding-left: 5px;
+  }
+  .P1 a {
+    display: grid;
+    gap: 5px;
+  }
+}

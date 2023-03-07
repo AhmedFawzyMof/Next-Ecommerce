@@ -1,0 +1,185 @@
+.ADPAGE {
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.ADPAGE a {
+  color: #244dff;
+}
+.Bar {
+  width: 50%;
+}
+.Sidebar {
+  width: 250px;
+  background: #333;
+  position: absolute;
+  left: 0;
+  top: 75%;
+  transform: translateY(-50%);
+  border-radius: 0 10px 10px 0;
+}
+
+.Sidebar ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style: none;
+}
+
+.Sidebar ul li a {
+  position: relative;
+  transition: 0.4s;
+  color: #fff;
+}
+.Sidebar ul li a::before {
+  position: absolute;
+  bottom: 0%;
+  content: "";
+  height: 2px;
+  width: 0%;
+  background: #244dff;
+  transition: 0.4s;
+}
+
+.Sidebar ul li a:hover {
+  color: #244dff;
+}
+
+.Sidebar ul li a:hover::before {
+  width: 100%;
+}
+
+.Dashbord {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.Dash {
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.Bord {
+  width: 80%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.BI {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Order {
+  width: 80%;
+  display: grid;
+  place-items: center;
+}
+
+.Products {
+  width: 80%;
+  display: grid;
+  place-items: center;
+}
+
+.Product {
+  width: 80%;
+  display: grid;
+  place-items: center;
+}
+
+.Table {
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.TH {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  border-bottom: 2px solid;
+  place-items: center;
+  text-transform: capitalize;
+}
+
+.TB {
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.TT {
+  margin-top: 10px;
+  width: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  place-items: center;
+  background: #eee;
+  border-radius: 5px;
+}
+
+.Table {
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.PTH {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  border-bottom: 2px solid;
+  place-items: center;
+  text-transform: capitalize;
+}
+
+.PTB {
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.PTT {
+  margin-top: 10px;
+  width: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  place-items: center;
+  background: #eee;
+  border-radius: 5px;
+}
+
+.AC {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.AC button {
+  padding: 8px;
+  background: #333;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.AC button:hover {
+  background: red;
+  cursor: pointer;
+}

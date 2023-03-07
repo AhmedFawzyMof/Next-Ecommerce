@@ -1,0 +1,58 @@
+.Products {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+.ib {
+  width: 600px;
+  position: relative;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ib button {
+  position: absolute;
+  right: 0;
+  background: none;
+  border: none;
+  background: #3c56ff;
+  color: #fff;
+  display: grid;
+  place-items: center;
+  height: 32.5px;
+  width: 60px;
+  border-radius: 0px 5px 5px 0;
+  font-size: 22.5px;
+  cursor: pointer;
+}
+
+.ib input {
+  height: 32.5px;
+  width: 100%;
+  border-radius: 10px;
+  border: 3px solid #3c56ff;
+}
+
+.SearchBar {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 450px) {
+  .SearchBar input {
+    width: 100%;
+  }
+
+  .ib {
+    width: 90%;
+  }
+}
